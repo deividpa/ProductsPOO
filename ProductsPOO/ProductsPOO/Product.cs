@@ -8,6 +8,12 @@ namespace ProductsPOO
 {
     class Product
     {
-
+        public Product()
+        { 
+            public String Description { get; set; }
+            public int Id { get; set; }
+            public float Price { get; set; }
+            public float Tax { get; set; }
+        }
     }
 }
